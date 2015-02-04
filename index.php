@@ -1,9 +1,5 @@
 <?php
 
-echo phpinfo();
-
-exit;
-
 
 // load app config (error reporting etc.)
 //require 'app/config/config.php';

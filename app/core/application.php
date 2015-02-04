@@ -1,6 +1,6 @@
 <?php
 
-class app
+class Application
 {
     /** @var null The controller */
     private $url_controller = null;
