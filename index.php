@@ -1,10 +1,12 @@
 <?php
 
+echo phpinfo();
 
+exit;
 
 
 // load app config (error reporting etc.)
-require 'app/config/config.php';
+//require 'app/config/config.php';
 
 // load app class
 require 'app/core/application.php';
