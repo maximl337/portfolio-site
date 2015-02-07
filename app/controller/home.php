@@ -19,7 +19,7 @@ class Home extends Controller
         //echo $_SERVER['DOCUMENT_ROOT'];
         
         // load views. within the views we can echo out $songs and $amount_of_songs easily
-        require 'app/views/templates/header.php';
+        require 'app/views/templates/header-home.php';
         require 'app/views/home/index.php'; 
         require 'app/views/templates/footer.php';
     }

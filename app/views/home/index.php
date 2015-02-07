@@ -1,4 +1,6 @@
 
-<div class="container">
-    Welcome to Angad Dubey's Site.
+<div class="container" style=" padding: 0px;">
+
+<h2>HOME</h2>
+	
 </div>
