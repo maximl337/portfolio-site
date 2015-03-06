@@ -1,4 +1,4 @@
-"use strict";
+//"use strict";
 
 var app = {
 
@@ -6,15 +6,23 @@ var app = {
 
         app.cache = {};
 
-        this.repaint();
+        this.resize_home_header();
 
     },
 
-    repaint: function () {
+    resize_home_header: function () {
         
-        $("h2").css('color', 'red');
+        //get window inner height
+        var vph = $(window).height();
+        console.log(vph);
+        $(".header-home").css('height', vph+'px');
+
+        $(window).on('resize', function() {
+
+            $(".header-home").css('height', vph+'px');
+        });
     }
-}
+};
 
 $(function() {
 

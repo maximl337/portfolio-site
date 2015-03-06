@@ -18,3 +18,9 @@ html, body {
 	padding: 10px;
 
 }
+.header-home {
+
+    background-color: #f8f8f8;
+    color: white;
+    height: 100%;
+}
