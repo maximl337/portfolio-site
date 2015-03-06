@@ -43,6 +43,7 @@
 
 $(function() {
 
+    //dont need custom this
     /*//get window height
     var window_height = $(window).height();
 
