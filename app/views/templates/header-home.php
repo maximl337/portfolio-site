@@ -10,14 +10,15 @@
     
 
     <!--Vendor Styles-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
 
     <!-- CUSTOM STYLES -->
-    <link rel="stylesheet" href="./public/css/styles.css">
+    <link type="text/css" rel="stylesheet" href="./public/css/styles.css" />
 
     <!-- Vendor JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./public/js/main.js"></script>
 </head>
 <body>
 
@@ -38,21 +39,3 @@
   </div> <!-- EO .row -->
     
 </div> <!-- EO .container-fluid -->
-
-<script type="text/javascript">
-
-$(function() {
-
-    //dont need custom this
-    /*//get window height
-    var window_height = $(window).height();
-
-    console.log(window_height);
-
-    //set window height to header
-    $(".header-home").css({'height': window_height +'px'}); */
-
-
-}); //DOM READY  
-
-</script>

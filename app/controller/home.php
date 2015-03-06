@@ -14,14 +14,16 @@ class Home extends Controller
      * PAGE: index
      * This method handles what happens when you move to http://yourproject/home/index (which is the default page btw)
      */
-    public function index()
-    {
+    public function index() {
+      
         //echo $_SERVER['DOCUMENT_ROOT'];
         
         // load views. within the views we can echo out $songs and $amount_of_songs easily
         require 'app/views/templates/header-home.php';
         require 'app/views/home/index.php'; 
         require 'app/views/templates/footer.php';
-    }
+    } 
 
+
+ 
 }
