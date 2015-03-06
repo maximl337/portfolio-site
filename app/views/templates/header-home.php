@@ -43,13 +43,13 @@
 
 $(function() {
 
-  //get window height
-  var window_height = $(window).height();
+    /*//get window height
+    var window_height = $(window).height();
 
-  console.log(window_height);
+    console.log(window_height);
 
-  //set window height to header
-  $(".header-home").css({'height': window_height +'px'}); 
+    //set window height to header
+    $(".header-home").css({'height': window_height +'px'}); */
 
 
 }); //DOM READY  
