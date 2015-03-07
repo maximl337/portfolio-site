@@ -24,6 +24,7 @@
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./public/js/vendor/typedjs/typed.js"></script>
     <script type="text/javascript" src="./public/js/vendor/progressbar/progressbar.js"></script>
+    <script type="text/javascript" src="./public/js/vendor/smoothscroll/smoothscroll.js"></script>
     <!-- CUSTOM JS -->
     <script type="text/javascript" src="./public/js/main.js"></script>
 </head> 
@@ -49,7 +50,7 @@
       <h1 class="text-center home-title">Angad Dubey</h1>
       <h3 class="text-center typed-header-sub-title"></h3>  
       <p class="text-center scroll-down floating">
-        <a href="#" class="scroll-down-action"><i class="fa fa-angle-down"></i></a>
+        <a href="#about-section" class="scroll-down-action scroll_action"><i class="fa fa-angle-down"></i></a>
       </p>
 
     </div> <!-- EO col-md-12 -->

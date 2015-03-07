@@ -13,7 +13,7 @@
     
         <p class="text-color"><i class="fa fa-ellipsis-h"></i></p>
 
-        <p>Angad's expertise<br /><a href="#" class="section_scroll_next"><i class="fa fa-angle-down"></i></a></p>
+        <p>Angad's expertise<br /><a href="#expertise-section" class="scroll_action"><i class="fa fa-angle-down"></i></a></p>
         
     </div>
     
@@ -33,42 +33,79 @@
            
             <div class="col-md-4 text-center">
                 <h3>E-COMMERCE</h3>
-                <img src="./public/images/ecommerce.gif" title="e-commerce" />
+                <img class="expertise-gif" src="./public/images/ecommerce.gif" title="e-commerce" />
                 <p>Full fledged, Payment ready, Social integration, fast, beautiful Online stores.</p>
                 <p class="text-color"><i class="fa fa-ellipsis-h"></i></p>
             </div>
 
             <div class="col-md-4 text-center">
                <h3>CMS</h3>
-               <img src="./public/images/websites.gif" title="content management systems" />
+               <img class="expertise-gif" src="./public/images/websites.gif" title="content management systems" />
                 <p>Custom Content Management Systems Tailored for specific domain and businesses.</p>
                 <p class="text-color"><i class="fa fa-ellipsis-h"></i></p>
            </div>
 
            <div class="col-md-4 text-center">
                <h3>RESPONSIVENESS</h3>
-               <img src="./public/images/mobile.gif" title="mobile ready" />
+               <img class="expertise-gif" src="./public/images/mobile.gif" title="mobile ready" />
                <p>Web applications that gracefully adapt to any device.</p>
                <p class="text-color"><i class="fa fa-ellipsis-h"></i></p>
            </div>
 
+           <div class="col-md-12 text-center">
+               <p>Angad's Skills<br /><a href="#skills-section" class="scroll_action"><i class="fa fa-angle-down"></i></a></p>
+           </div>
+
        </div>
    </div>
+</div> <!-- /.expertise -->
+
+<div id="skills-section" class="row skills section">
+
+    <div class="col-md-12 text-center">
+        <h1 class="section-title">Skills</h1>
+    </div>
+
+    <div class="col-md-3 text-center">
+        <h3>PHP</h3>
+        <div class="progress-circle" id="skills-0"></div>
+        
+    </div>
+    <div class="col-md-3 text-center">
+        <h3>RDBMS</h3>
+        <div class="progress-circle" id="skills-1"></div>
+        
+    </div>
+    <div class="col-md-3 text-center">
+        <h3>Javascript</h3>
+        <div class="progress-circle" id="skills-2"></div>
+        
+    </div>
+    <div class="col-md-3 text-center">
+        <h3>CSS3</h3>
+        <div class="progress-circle" id="skills-3"></div>
+        
+    </div>
     
-</div>
-
-<div class="row contact section">
-
-    <!-- <div id="expertise-0" class="progress-circle"></div>
-    <div id="expertise-1" class="progress-circle"></div>
-    <div id="expertise-2" class="progress-circle"></div>
-    <div id="expertise-3" class="progress-circle"></div> -->
-
-    <h1> contact section </h1>
+        <div class="col-md-12 spacer"></div>
     
-</div>
+    <div class="col-md-6 text-center">
+        <h3>OTHER SKILLS</h3>
+        <div class="progress-line" id="other-skills"></div>
+        <p>MySQL, jQuery, Git, Bootstrap, HTML5, Photoshop, Illustrator, Mandrill, Mailchimp, Stripe Payment, Composer, Salesforce, Vagrant, OOP, MVC, Social Sign On, and more ... </p>
+        <p class="text-color"><i class="fa fa-ellipsis-h"></i></p>
+    </div>
 
-<div class="row case-study section">
+    <div class="col-md-6 text-center">
+        <h3>FRAMEWORKS</h3>
+        <div class="progress-line" id="frameworks"></div>
+        <p>Wordpress, CakePHP, Laravel, Magento, Shopify, ZenCart, Symphony, Zend, Drupal, Joomla, PhalconMVC, YII, and more ...  </p>
+        <p class="text-color"><i class="fa fa-ellipsis-h"></i></p>
+    </div>
+    
+</div> <!-- /.skills -->
+
+<div class="row case-study section hidden">
 
     <h1> case-study section </h1>
     
