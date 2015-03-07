@@ -48,4 +48,20 @@ html, body {
     font-weight: 300;
     padding-right: 10px;
     letter-spacing: 2px;
+    padding-bottom: 200px;
+}
+
+.header-home .scroll-down {
+    color: white;
+    font-size: 50px;
+
+    display: none;
+    width: 100px;
+    margin: auto;
+}
+.header-home .scroll-down a {
+    color: white;
+}
+.container.home {
+    display: none;
 }

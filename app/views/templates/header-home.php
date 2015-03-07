@@ -12,6 +12,7 @@
     <!--Vendor Styles-->
     <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet" href="./public/css/animate.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,200' rel='stylesheet' type='text/css'> -->
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
 
@@ -37,7 +38,7 @@
 
       <h1 class="text-center home-title">Angad Dubey</h1>
       <h3 class="text-center typed-header-sub-title"></h3>  
-
+      <p class="text-center scroll-down"><a href="#" class="scroll-down-action"><i class="fa fa-angle-down"></i></a></p>
 
     </div> <!-- EO col-md-12 -->
 

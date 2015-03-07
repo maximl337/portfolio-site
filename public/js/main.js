@@ -8,6 +8,7 @@ var app = {
 
         this.resize_home_header();
         this.header_typed_subtitle();
+        this.header_scroll_down_actions();
 
     },
 
@@ -36,9 +37,28 @@ var app = {
         showCursor: true,
         cursorChar: '|',
         callback: function() {
-            $(".home-title").addClass('animated pulse');
+            setTimeout(function() {
+
+                $(".home-title").addClass('animated pulse');
+                $(".header-home .scroll-down").show();
+                //$(".typed-header-sub-title").css('padding-bottom', (200 - $(".header-home .scroll-down").height()) + 'px');
+            }, 1000);
+            
         }
       });
+    },
+
+    header_scroll_down_actions: function () {
+        //mouseover
+        $(document).on('mouseover', ".scroll-down", function() {
+            $(this).addClass('animated bounce');
+           
+        });
+        //mouseout
+        $(document).on('mouseout', ".scroll-down", function() {
+            $(this).removeClass('animated bounce'); 
+
+        });
     }
 };
 

@@ -1,6 +1,12 @@
 
-<div class="container" style=" padding: 0px;">
+<div class="container home">
 
-<h2>HOME</h2>
+<div class="about">
+
+    <h1> About section </h1>
+    
+</div>
+
+
 	
 </div>
