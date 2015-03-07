@@ -31,6 +31,15 @@
 <!-- header -->
 <div class="container-fluid header-home">
 
+  <nav class="navbar navbar-default navbar-fixed-top home-header-nav">
+    <div class="row">
+      <div class="col-md-12">
+        <a href="" class="brand">AD</a>
+        <a href="" class="pull-right"><i class="fa fa-bars"></i></a>
+      </div>
+    </div> 
+  </nav>
+
 
   <div class="row">
   
