@@ -15,7 +15,7 @@ var app = {
         
         //get window inner height
         var vph = $(window).height();
-        console.log(vph);
+        
         $(".header-home").css('height', vph+'px');
 
         $(window).on('resize', function() {
@@ -32,11 +32,12 @@ var app = {
         typeSpeed: 25,
         startDelay: 1000,
         backSpeed: 25,
-        // time before backspacing
         backDelay: 1000,
         showCursor: true,
-        // character for cursor
-        cursorChar: '|'
+        cursorChar: '|',
+        callback: function() {
+            $(".home-title").addClass('animated pulse');
+        }
       });
     }
 };
