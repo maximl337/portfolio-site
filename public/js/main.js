@@ -7,6 +7,7 @@ var app = {
         app.cache = {};
 
         this.resize_home_header();
+        this.header_typed_subtitle();
 
     },
 
@@ -21,11 +22,27 @@ var app = {
 
             $(".header-home").css('height', vph+'px');
         });
+    },
+
+    header_typed_subtitle: function () {
+        
+        //typed.js
+        $(".typed-header-sub-title").typed({
+        strings: ["Developer", "Designer", "Code ninja", "Thinker", "Foodie", "Your project maker" ],
+        typeSpeed: 25,
+        startDelay: 1000,
+        backSpeed: 25,
+        // time before backspacing
+        backDelay: 1000,
+        showCursor: true,
+        // character for cursor
+        cursorChar: '|'
+      });
     }
 };
 
 $(function() {
 
-    app.init();
+    app.init(); 
 
 });
