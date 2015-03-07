@@ -1,7 +1,7 @@
 
 <div class="container-fluid home-content">
 
-<div class="row about section">
+<div id="about-section" class="row about section">
 
     <div class="col-md-6 col-md-offset-6 col-sm-12 col-xs-12 text-center">
         
@@ -19,7 +19,7 @@
     
 </div> <!-- /.about -->
 
-<div class="row expertise section">
+<div id="expertise-section" class="row expertise section">
 
    <div class="col-md-12 text-center">
        

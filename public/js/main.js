@@ -33,11 +33,11 @@ var app = {
         var o_vph = $(window).height();
         var vph = parseInt(o_vph) - 64;
         
-        $(".home-content > .section").css('height', vph+'px');
+        $(".home-content > .section").css('height', o_vph+'px');
 
         $(window).on('resize', function() {
 
-            $(".home-content > .section").css('height', vph+'px');
+            $(".home-content > .section").css('height', o_vph+'px');
         });
     },
 
