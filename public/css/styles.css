@@ -90,6 +90,18 @@ html, body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: #f8f8f8;
+    overflow: auto;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    .home-content .about {
+        
+        background-color: #f8f8f8;
+    }
+
 }
 
 .home-content .section-title {
