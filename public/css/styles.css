@@ -144,31 +144,31 @@ html, body {
 }
 .home-content .expertise .section-title {
     color: white;
+    margin-bottom: 40px;
 }
 .home-content .expertise p {
 
     color: white;
+    font-weight: 300;
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
 }
 
-.home-content .expertise .progress-circle {
-    padding: 50px;
-    font-size: 25px;
+.home-content .expertise h3 {
+    color: white;
+    margin: 30px 0px;
     font-weight: 300;
 }
 
-.home-content .expertise .progressbar__label {
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    padding: 0px;
-    margin: 0px;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-    width: 50%;
-    padding-top: 10px;
+.home-content .skills .progress-circle {
+   width: 50%;
+   margin: auto;
+    
+   
 }
+
+
 
 /* COMMON */
 .typed-cursor {

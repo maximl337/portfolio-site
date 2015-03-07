@@ -31,32 +31,37 @@
        
        <div class="row">
            
-           <div id="expertise-0" class="col-md-3 progress-circle text-center">
-               <p>E-COMMERCE</p>
+            <div class="col-md-4 text-center">
+                <h3>E-COMMERCE</h3>
+                <img src="./public/images/ecommerce.gif">
+                <p>Full fledged, Payment ready, Social integration, fast, beautiful Online stores.</p>
+                
+            </div>
+
+            <div class="col-md-4 text-center">
+               <h3>CMS</h3>
+               <img src="./public/images/websites.gif">
+                <p>Custom Content Management Systems Tailored for specific domain and businesses.</p>
+                
            </div>
 
-            <div id="expertise-1" class="col-md-3 progress-circle text-center">
-               <p>CUSTOM SOCIAL NETWORK</p>
+           <div class="col-md-4 text-center">
+               <h3>RESPONSIVENESS</h3>
+               <img src="./public/images/mobile.gif">
+               <p>Web applications that gracefully adapt to any device.</p>
            </div>
 
-           <div id="expertise-2" class="col-md-3 progress-circle text-center">
-               <p>RESPONSIVENESS</p>
-           </div>
-
-           <div id="expertise-3" class="col-md-3 progress-circle text-center">
-               <p>DESIGN</p>
-           </div>
        </div>
-   </div>
-
-   <div class="col-md-12">
-       
-       <p></p>
    </div>
     
 </div>
 
 <div class="row contact section">
+
+    <!-- <div id="expertise-0" class="progress-circle"></div>
+    <div id="expertise-1" class="progress-circle"></div>
+    <div id="expertise-2" class="progress-circle"></div>
+    <div id="expertise-3" class="progress-circle"></div> -->
 
     <h1> contact section </h1>
     

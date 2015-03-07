@@ -68,25 +68,8 @@ var app = {
             color: '#1abc9c',
             strokeWidth: 2,
             trailWidth: 0,
-            duration: 1500,
-            text: {
-                // Initial value for text.
-                // Default: null
-                value: 'Full fledged, payment ready, socially integrated, online stores',
-
-                // Text color.
-                // Default: same as stroke color (options.color)
-                color: '#FFFFFF',
-
-                // Class name for text element.
-                // Default: 'progressbar-text'
-                className: 'progressbar__label',
-
-                // If true, CSS is automatically set for container and text element.
-                // If you want to modify all CSS your self, set this to false
-                // Default: true
-                autoStyle: false
-            }
+            duration: 1500
+            
         });
 
         circle_0.animate(1, function() {
