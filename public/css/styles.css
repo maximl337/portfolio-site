@@ -78,6 +78,7 @@ html, body {
 }
 .home-header-nav a {
     font-size: 24px;
+    font-weight: 300;
     color: rgba(255, 255, 255, 0.10);
 }
 .home-header-nav a.brand {
@@ -189,11 +190,35 @@ html, body {
 .home-content .skills p {
 
     font-weight: 300;
+    padding: 25px;
+}
+
+/* FOOTER */
+footer {
+    height: 70px;
+    background-color: #1abc9c;
+    color: white;
     padding: 20px;
 }
 
-
 /* COMMON */
+
+.home-header-nav a.color-light {
+    color: rgba(255, 255, 255, 0.75);
+    -webkit-transition: color 1000ms ease;
+    -moz-transition: color 1000ms ease;
+    -ms-transition: color 1000ms ease;
+    -o-transition: color 1000ms ease;
+    transition: color 1000ms ease;
+}
+.home-header-nav a.color-dark {
+    color: #1abc9c;
+    -webkit-transition: color 1000ms ease;
+    -moz-transition: color 1000ms ease;
+    -ms-transition: color 1000ms ease;
+    -o-transition: color 1000ms ease;
+    transition: color 1000ms ease;
+}
 .scroll_action {
 
     font-size: 50px;

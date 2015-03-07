@@ -8,19 +8,12 @@ var app = {
 
         this.resize_home_header();
         this.header_typed_subtitle();
-        //this.header_scroll_down_actions();
-        this.resize_content_sections();
-        //this.circle_progress_bar();
-        //this.line_progress_bar();
-        this.scroll_action();
 
-        //manage scrollbars
-        if (app.check_if_scrolled_into_view('#skills-section')) {
-            app.circle_progress_bar();
-            app.line_progress_bar();
-        } else {
-            
-        }
+        this.resize_content_sections();
+
+        this.scroll_action();
+        this.check_if_scrolled_into_view();
+        
 
     },
 
@@ -157,6 +150,7 @@ var app = {
               scrollTarget: target,
               afterScroll: function() {
                 if(target == '#skills-section') {
+                    app.destroy_progress_bars();
                     app.circle_progress_bar();
                     app.line_progress_bar();
                 }
@@ -170,18 +164,43 @@ var app = {
 
     },
 
-    check_if_scrolled_into_view: function (elem) {
+    check_if_scrolled_into_view: function () {
 
-        var $elem = $(elem);
-        var $window = $(window);
+        $('#skills-section').waypoint(function(direction) {
+            app.destroy_progress_bars();
+            app.circle_progress_bar();
+            app.line_progress_bar();
+            app.header_items_dark();
+        }, {
+          offset: '25%'
+        });
 
-        var docViewTop = $window.scrollTop();
-        var docViewBottom = docViewTop + $window.height();
+        $('#about-section').waypoint(function(direction) {
+            
+            app.header_items_dark();
+        });
 
-        var elemTop = $elem.offset().top;
-        var elemBottom = elemTop + $elem.height();
+        $('#expertise-section').waypoint(function(direction) {
+            
+            app.header_items_light();
+        });
 
-        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+        $('.header-home').waypoint(function(direction) {
+            
+            app.header_items_light();
+        });
+    },
+
+    header_items_light: function () {
+        $('.home-header-nav a').removeClass('color-light');
+        $('.home-header-nav a').removeClass('color-dark');
+        $('.home-header-nav a').addClass('color-light');
+    },
+
+    header_items_dark: function () {
+        $('.home-header-nav a').removeClass('color-dark');
+        $('.home-header-nav a').removeClass('color-light');
+        $('.home-header-nav a').addClass('color-dark');
     }
 };
 

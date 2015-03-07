@@ -7,15 +7,12 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    
-
     <!--Vendor Styles-->
     <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet" href="./public/css/animate.css" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,200' rel='stylesheet' type='text/css'> -->
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
-
+    <link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+   
+    <link type='text/css' rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,300,400' />
     <!-- CUSTOM STYLES -->
     <link type="text/css" rel="stylesheet" href="./public/css/styles.css" />
 
@@ -25,19 +22,21 @@
     <script type="text/javascript" src="./public/js/vendor/typedjs/typed.js"></script>
     <script type="text/javascript" src="./public/js/vendor/progressbar/progressbar.js"></script>
     <script type="text/javascript" src="./public/js/vendor/smoothscroll/smoothscroll.js"></script>
+    <script type="text/javascript" src="./public/js/vendor/waypoints/jquery.waypoints.min.js"></script>
+
     <!-- CUSTOM JS -->
     <script type="text/javascript" src="./public/js/main.js"></script>
 </head> 
 <body>
 
 <!-- header -->
-<div class="container-fluid header-home">
+<div id="home-header" class="container-fluid header-home">
 
   <nav class="navbar navbar-default navbar-fixed-top home-header-nav">
     <div class="row">
       <div class="col-md-12">
-        <a href="" class="brand">AD</a>
-        <a href="" class="pull-right"><i class="fa fa-bars"></i></a>
+        <a href="#home-header" class="brand scroll_action">AD</a>
+        <a href="#" class="pull-right"><i class="fa fa-bars"></i></a>
       </div>
     </div> 
   </nav>
