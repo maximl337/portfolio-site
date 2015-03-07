@@ -33,22 +33,23 @@
            
             <div class="col-md-4 text-center">
                 <h3>E-COMMERCE</h3>
-                <img src="./public/images/ecommerce.gif">
+                <img src="./public/images/ecommerce.gif" title="e-commerce" />
                 <p>Full fledged, Payment ready, Social integration, fast, beautiful Online stores.</p>
-                
+                <p class="text-color"><i class="fa fa-ellipsis-h"></i></p>
             </div>
 
             <div class="col-md-4 text-center">
                <h3>CMS</h3>
-               <img src="./public/images/websites.gif">
+               <img src="./public/images/websites.gif" title="content management systems" />
                 <p>Custom Content Management Systems Tailored for specific domain and businesses.</p>
-                
+                <p class="text-color"><i class="fa fa-ellipsis-h"></i></p>
            </div>
 
            <div class="col-md-4 text-center">
                <h3>RESPONSIVENESS</h3>
-               <img src="./public/images/mobile.gif">
+               <img src="./public/images/mobile.gif" title="mobile ready" />
                <p>Web applications that gracefully adapt to any device.</p>
+               <p class="text-color"><i class="fa fa-ellipsis-h"></i></p>
            </div>
 
        </div>
