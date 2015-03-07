@@ -11,7 +11,8 @@
 
     <!--Vendor Styles-->
     <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,200' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,200' rel='stylesheet' type='text/css'> -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
 
     <!-- CUSTOM STYLES -->
     <link type="text/css" rel="stylesheet" href="./public/css/styles.css" />
@@ -22,7 +23,7 @@
     <script type="text/javascript" src="./public/js/vendor/typedjs/typed.js"></script>
     <!-- CUSTOM JS -->
     <script type="text/javascript" src="./public/js/main.js"></script>
-</head>
+</head> 
 <body>
 
 <!-- header -->

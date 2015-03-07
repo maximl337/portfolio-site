@@ -1,6 +1,7 @@
 * {
 	
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Lato', sans-serif;
 
 }
 html, body {
@@ -43,5 +44,6 @@ html, body {
 
     color: white;
     font-size: 28px;
+    font-weight: 300;
     padding-right: 10px;
 }
