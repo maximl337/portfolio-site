@@ -38,6 +38,7 @@ html, body {
     text-transform:uppercase;
     position: relative;
     margin-top: 22.5%;
+    letter-spacing: 8px;
 
 }
 .header-home .typed-header-sub-title {
