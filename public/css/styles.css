@@ -92,9 +92,41 @@ html, body {
     background-color: #f8f8f8;
 }
 
+.home-content .section-title {
+
+    padding-top: 55px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #1abc9c;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.home-content .section p {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 20px;
+    line-height: 55px;
+    letter-spacing: 2px;
+    width: 90%;
+    margin: auto;
+}
+
 .typed-cursor {
 
     display: none;
+}
+
+.home-content .section p.text-color {
+
+    color: #1abc9c !important;
+}
+.home-content .section_scroll_next {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.50);
 }
 
 .floating{

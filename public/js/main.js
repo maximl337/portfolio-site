@@ -44,7 +44,7 @@ var app = {
         
         //typed.js
         $(".typed-header-sub-title").typed({
-        strings: ["Developer", "Designer", "Code Ninja", "Thinker", "Foodie", "Software Architect" ],
+        strings: ["Developer", "Designer", "Code Ninja", "Learner", "Thinker", "Foodie", "Software Architect" ],
         typeSpeed: 25,
         startDelay: 1000,
         backSpeed: 25,
