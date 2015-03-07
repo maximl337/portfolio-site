@@ -84,23 +84,11 @@ html, body {
     letter-spacing: 2px;
 }
 
-.home-content .about {
-    background-image: url("../images/about-bg.jpg");
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-color: #f8f8f8;
+/* CONTENT */
+
+.home-content .section {
     overflow: auto;
-}
-
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-
-    .home-content .about {
-        
-        background-color: #f8f8f8;
-    }
+    background-color: #f8f8f8;
 
 }
 
@@ -127,11 +115,6 @@ and (max-device-width : 480px) {
     margin: auto;
 }
 
-.typed-cursor {
-
-    display: none;
-}
-
 .home-content .section p.text-color {
 
     color: #1abc9c !important;
@@ -141,6 +124,57 @@ and (max-device-width : 480px) {
     color: rgba(0, 0, 0, 0.50);
 }
 
+/* about */
+.home-content .about {
+    background-image: url("../images/about-bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+/* expertise */
+.home-content .expertise {
+    background-image: url("../images/expertise-bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #f8f8f8;
+
+}
+.home-content .expertise .section-title {
+    color: white;
+}
+.home-content .expertise p {
+
+    color: white;
+}
+
+.home-content .expertise .progress-circle {
+    padding: 50px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.home-content .expertise .progressbar__label {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0px;
+    margin: 0px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding-top: 10px;
+}
+
+/* COMMON */
+.typed-cursor {
+
+    display: none;
+}
 .floating{
     /*float: left;*/
     -webkit-animation-name: Floatingx;

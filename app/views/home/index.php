@@ -17,11 +17,42 @@
         
     </div>
     
-</div>
+</div> <!-- /.about -->
 
 <div class="row expertise section">
 
-    <h1> expertise section </h1>
+   <div class="col-md-12 text-center">
+       
+       <h1 class="section-title"> expertise </h1>
+
+   </div> 
+
+   <div class="col-md-12">
+       
+       <div class="row">
+           
+           <div id="expertise-0" class="col-md-3 progress-circle text-center">
+               <p>E-COMMERCE</p>
+           </div>
+
+            <div id="expertise-1" class="col-md-3 progress-circle text-center">
+               <p>CUSTOM SOCIAL NETWORK</p>
+           </div>
+
+           <div id="expertise-2" class="col-md-3 progress-circle text-center">
+               <p>RESPONSIVENESS</p>
+           </div>
+
+           <div id="expertise-3" class="col-md-3 progress-circle text-center">
+               <p>DESIGN</p>
+           </div>
+       </div>
+   </div>
+
+   <div class="col-md-12">
+       
+       <p></p>
+   </div>
     
 </div>
 
