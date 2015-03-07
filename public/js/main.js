@@ -8,7 +8,7 @@ var app = {
 
         this.resize_home_header();
         this.header_typed_subtitle();
-        this.header_scroll_down_actions();
+        //this.header_scroll_down_actions();
 
     },
 
@@ -46,19 +46,6 @@ var app = {
             
         }
       });
-    },
-
-    header_scroll_down_actions: function () {
-        //mouseover
-        $(document).on('mouseover', ".scroll-down", function() {
-            $(this).addClass('animated bounce');
-           
-        });
-        //mouseout
-        $(document).on('mouseout', ".scroll-down", function() {
-            $(this).removeClass('animated bounce'); 
-
-        });
     }
 };
 

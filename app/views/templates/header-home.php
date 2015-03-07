@@ -38,7 +38,9 @@
 
       <h1 class="text-center home-title">Angad Dubey</h1>
       <h3 class="text-center typed-header-sub-title"></h3>  
-      <p class="text-center scroll-down"><a href="#" class="scroll-down-action"><i class="fa fa-angle-down"></i></a></p>
+      <p class="text-center scroll-down floating">
+        <a href="#" class="scroll-down-action"><i class="fa fa-angle-down"></i></a>
+      </p>
 
     </div> <!-- EO col-md-12 -->
 
