@@ -34,13 +34,11 @@ var app = {
         startDelay: 1000,
         backSpeed: 25,
         backDelay: 1000,
-        showCursor: true,
-        cursorChar: '|',
         callback: function() {
             setTimeout(function() {
 
-                $(".home-title").addClass('animated pulse');
-                $(".header-home .scroll-down").show();
+                
+                $(".header-home .scroll-down").fadeIn();
                 //$(".typed-header-sub-title").css('padding-bottom', (200 - $(".header-home .scroll-down").height()) + 'px');
             }, 1000);
             
