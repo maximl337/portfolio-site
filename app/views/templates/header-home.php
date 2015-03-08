@@ -11,8 +11,8 @@
     <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet" href="./public/css/animate.css" />
     <link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-   
     <link type='text/css' rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,300,400' />
+    <link type="text/css" rel="stylesheet" href="./public/css/mmenu.css" />
     <!-- CUSTOM STYLES -->
     <link type="text/css" rel="stylesheet" href="./public/css/styles.css" />
 
@@ -23,20 +23,29 @@
     <script type="text/javascript" src="./public/js/vendor/progressbar/progressbar.js"></script>
     <script type="text/javascript" src="./public/js/vendor/smoothscroll/smoothscroll.js"></script>
     <script type="text/javascript" src="./public/js/vendor/waypoints/jquery.waypoints.min.js"></script>
-
+    <script type="text/javascript" src="./public/js/vendor/mmenu/mmenu.min.js"></script>
     <!-- CUSTOM JS -->
     <script type="text/javascript" src="./public/js/main.js"></script>
 </head> 
 <body>
 
+<nav id="mmenu">
+   <ul class="mm-nolist">
+      <li><a class="" href="#home-header">Home</a></li>
+      <li><a class="" href="#about-section">About</a></li>
+      <li><a class="" href="#expertise-section">Expertise</a></li>
+      <li><a class="" href="#skills-section">Skills</a></li>
+   </ul>
+</nav>
+
+<div id="body-wrap">
 <!-- header -->
 <div id="home-header" class="container-fluid header-home">
 
   <nav class="navbar navbar-default navbar-fixed-top home-header-nav">
     <div class="row">
       <div class="col-md-12">
-        <a href="#home-header" class="brand scroll_action">AD</a>
-        <a href="#" class="pull-right"><i class="fa fa-bars"></i></a>
+        <a href="#mmenu" class="brand"><i class="fa fa-bars"></i></a>
       </div>
     </div> 
   </nav>

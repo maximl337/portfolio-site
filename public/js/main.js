@@ -13,6 +13,7 @@ var app = {
 
         this.scroll_action();
         this.check_if_scrolled_into_view();
+        this.off_canvas_menu_scroll();
         
 
     },
@@ -144,7 +145,9 @@ var app = {
     scroll_action:function () {
 
         $('.scroll_action').on('click', function() {
-            var target = $(this).attr('href');    
+
+            var target = $(this).attr('href');
+
             $.smoothScroll({
               scrollElement: null,
               scrollTarget: target,
@@ -153,14 +156,63 @@ var app = {
                     app.destroy_progress_bars();
                     app.circle_progress_bar();
                     app.line_progress_bar();
+                } else if(target == "#expertise-section") {
+                    app.hide_expertise_gifs();
+                    app.show_expertise_gifs();
                 }
               },
               beforeScroll: function() {
                 app.destroy_progress_bars();
+                app.hide_expertise_gifs();
               }
             });
             return false;
         });
+
+    },
+
+    off_canvas_menu_scroll: function () {
+        $("#mmenu a").on("click", function(e) {
+
+            e.preventDefault();
+            var target = $(this).attr("href");
+
+            $("#mmenu").trigger("close.mm");
+
+            $("#mmenu").on("closed.mm", function () {
+
+                //setTimeout(function() {
+
+                    $.smoothScroll({
+                        scrollElement: null,
+                        scrollTarget: target,
+                        afterScroll: function() {
+                            if(target == '#skills-section') {
+                                app.destroy_progress_bars();
+                                app.circle_progress_bar();
+                                app.line_progress_bar();
+                            } else if(target == "#expertise-section") {
+                                app.hide_expertise_gifs();
+                                app.show_expertise_gifs();
+                            }
+                        },
+                        beforeScroll: function() {
+                            app.destroy_progress_bars();
+                            app.hide_expertise_gifs();
+                        }
+                    });
+
+                    
+
+                //}, 1000); //eo settimeout
+
+                
+                //return false;
+            });
+        
+        });
+
+
 
     },
 
@@ -178,16 +230,19 @@ var app = {
         $('#about-section').waypoint(function(direction) {
             
             app.header_items_dark();
+            app.hide_expertise_gifs();
         });
 
         $('#expertise-section').waypoint(function(direction) {
             
             app.header_items_light();
+            app.show_expertise_gifs();
         });
 
         $('.header-home').waypoint(function(direction) {
             
             app.header_items_light();
+            app.hide_expertise_gifs();
         });
     },
 
@@ -201,11 +256,19 @@ var app = {
         $('.home-header-nav a').removeClass('color-dark');
         $('.home-header-nav a').removeClass('color-light');
         $('.home-header-nav a').addClass('color-dark');
+    },
+    show_expertise_gifs: function () {
+        $('.expertise-gif').show();
+    },
+    hide_expertise_gifs: function () {
+        $('.expertise-gif').hide();
     }
 };
 
 $(function() {
 
     app.init(); 
+
+    $("#mmenu").mmenu();
 
 });
