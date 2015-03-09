@@ -270,6 +270,9 @@ ul.social-links li a:hover {
     -o-transition: color 1000ms ease;
     transition: color 1000ms ease;
 }
+footer ul.social-links {
+    padding-left: 0px;
+}
 footer ul.social-links li a {
     color: white;
 }
