@@ -1,10 +1,10 @@
 <footer>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 text-left">
+            <div class="col-md-6 col-xs-12 text-left">
                 <p>&copy; 2015 Angad Dubey</p>
             </div>
-            <div class="col-md-6 text-right">
+            <div class="col-md-6 col-xs-12 text-right">
                 <ul class="social-links">
                     <li><a title="Github Profile" href="https://github.com/maximl337"><i class="fa fa-github-square"></i></a></li>
                     <li><a title="Twitter profile" href="https://twitter.com/angaddby"><i class="fa fa-twitter-square"></i></a></li>

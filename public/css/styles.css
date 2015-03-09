@@ -194,13 +194,7 @@ html, body {
     padding: 25px;
 }
 
-/* FOOTER */
-footer {
-    height: 70px;
-    background-color: #1abc9c;
-    color: white;
-    padding: 20px;
-}
+
 /* OFF-CANVAS MENU LIST STYLES */
 
 #mmenu ul {
@@ -240,6 +234,16 @@ footer {
 }
 
 /* FOOTER */
+
+footer {
+    
+    background-color: #1abc9c;
+    color: white;
+    
+}
+footer p {
+    padding-top: 10px;
+}
 ul.social-links {
 
 }
