@@ -59,6 +59,7 @@ var app = {
 
                 
                 $(".header-home .scroll-down").fadeIn();
+                $(".header-home ul.social-links").fadeIn();
                 //$(".typed-header-sub-title").css('padding-bottom', (200 - $(".header-home .scroll-down").height()) + 'px');
             }, 1000);
             

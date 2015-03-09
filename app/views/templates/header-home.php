@@ -57,6 +57,13 @@
 
       <h1 class="text-center home-title">Angad Dubey</h1>
       <h3 class="text-center typed-header-sub-title"></h3>  
+      <ul class="social-links">
+          <li><a title="Github Profile" href="https://github.com/maximl337"><i class="fa fa-github-square"></i></a></li>
+          <li><a title="Twitter profile" href="https://twitter.com/angaddby"><i class="fa fa-twitter-square"></i></a></li>
+          <li><a title="Linkedin Profile" href="ca.linkedin.com/in/angaddubey"><i class="fa fa-linkedin-square"></i></a></li>
+          <li><a title="Facebook profile" href="https://www.facebook.com/angad.dubey.7"><i class="fa fa-facebook-square"></i></a></li>
+          <li><a title="Google plus profile" href="https://plus.google.com/101340480310801355869/about"><i class="fa fa-google-plus-square"></i></a></li>
+      </ul>
       <p class="text-center scroll-down floating">
         <a href="#about-section" class="scroll-down-action scroll_action"><i class="fa fa-angle-down"></i></a>
       </p>
