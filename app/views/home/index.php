@@ -5,7 +5,7 @@
 
     <div class="col-md-6 col-md-offset-6 col-sm-12 col-xs-12 text-center">
         
-        <h1 class="section-title"> About </h1>
+        <h2 class="section-title"> About </h2>
 
         <p>Angad <i class="fa fa-heart"></i>'s Web</p>
 
@@ -23,7 +23,7 @@
 
    <div class="col-md-12 text-center">
        
-       <h1 class="section-title"> expertise </h1>
+       <h2 class="section-title"> expertise </h2>
 
    </div> 
 
@@ -33,21 +33,21 @@
            
             <div class="col-md-4 text-center">
                 <h3>E-COMMERCE</h3>
-                <img class="expertise-gif" src="./public/images/ecommerce.gif" title="e-commerce" />
+                <img class="expertise-gif" src="./public/images/ecommerce.gif" alt="e-commerce image" title="e-commerce" />
                 <p>Full fledged, Payment ready, Social integration, fast, beautiful Online stores.</p>
                 <p class="text-color"><i class="fa fa-ellipsis-h"></i></p>
             </div>
 
             <div class="col-md-4 text-center">
                <h3>CMS</h3>
-               <img class="expertise-gif" src="./public/images/websites.gif" title="content management systems" />
+               <img class="expertise-gif" src="./public/images/websites.gif" alt="CMS image" title="content management systems" />
                 <p>Custom Content Management Systems Tailored for specific domain and businesses.</p>
                 <p class="text-color"><i class="fa fa-ellipsis-h"></i></p>
            </div>
 
            <div class="col-md-4 text-center">
                <h3>RESPONSIVENESS</h3>
-               <img class="expertise-gif" src="./public/images/mobile.gif" title="mobile ready" />
+               <img class="expertise-gif" src="./public/images/mobile.gif" alt="responsive image" title="mobile ready" />
                <p>Web applications that gracefully adapt to any device.</p>
                <p class="text-color"><i class="fa fa-ellipsis-h"></i></p>
            </div>
@@ -63,7 +63,7 @@
 <div id="skills-section" class="row skills section">
 
     <div class="col-md-12 text-center">
-        <h1 class="section-title">Skills</h1>
+        <h2 class="section-title">Skills</h2>
     </div>
 
     <div class="col-md-3 text-center">
@@ -107,7 +107,7 @@
 
 <div class="row case-study section hidden">
 
-    <h1> case-study section </h1>
+    <h2> case-study section </h2>
     
 </div>
 

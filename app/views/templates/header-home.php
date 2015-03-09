@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Angad Dubey - Developer, Designer.</title>
-    <meta name="description" content="">
+    <title>Angad Dubey - Developer, Designer</title>
+    <meta name="description" content="Angad Dubey - Web Developer">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!--Vendor Styles-->
