@@ -99,7 +99,7 @@
     <div class="col-md-6 text-center">
         <h3>FRAMEWORKS</h3>
         <div class="progress-line" id="frameworks"></div>
-        <p>Wordpress, CakePHP, Laravel, Magento, Shopify, ZenCart, Symphony, Zend, Drupal, Joomla, PhalconMVC, YII, and more ...  </p>
+        <p>Wordpress, CakePHP, Laravel, Magento, Shopify, ZenCart, Symfony, Zend, Drupal, Joomla, PhalconMVC, YII, and more ...  </p>
         <p class="text-color"><i class="fa fa-ellipsis-h"></i></p>
     </div>
     
