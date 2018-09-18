@@ -67,7 +67,7 @@
     </div>
 
     <div class="col-md-3 text-center">
-        <h3>PHP</h3>
+        <h3>PHP/Python</h3>
         <div class="progress-circle" id="skills-0"></div>
         
     </div>
@@ -77,7 +77,7 @@
         
     </div>
     <div class="col-md-3 text-center">
-        <h3>Javascript</h3>
+        <h3>React</h3>
         <div class="progress-circle" id="skills-2"></div>
         
     </div>
@@ -92,7 +92,7 @@
     <div class="col-md-6 text-center">
         <h3>OTHER SKILLS</h3>
         <div class="progress-line" id="other-skills"></div>
-        <p>MySQL, jQuery, Git, Bootstrap, HTML5, Photoshop, Illustrator, Mandrill, Mailchimp, Stripe Payment, Composer, Salesforce, Vagrant, OOP, MVC, Social Sign On, and more ... </p>
+        <p>Redux, Redux-Observable, Enzyme, Jest, MySQL, jQuery, Git, Bootstrap, HTML5, Photoshop, Illustrator, Mandrill, Mailchimp, Stripe Payment, Composer, Salesforce, Vagrant, OOP, MVC, Social Sign On, and more ... </p>
         <p class="text-color"><i class="fa fa-ellipsis-h"></i></p>
     </div>
 
